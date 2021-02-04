@@ -1,8 +1,8 @@
 # Optymalizacja_Kombinatoryczna_Projekt
 
-Imię i nazwisko: Wiktoria Szweda
-Nr grupy: I7.2
-Nr indeksu: 145355
+Imię i nazwisko: Wiktoria Szweda  
+Nr grupy: I7.2  
+Nr indeksu: 145355  
 
 Wstępny opis projektu:
 1. Przegląd różnych wariantów sieci Petriego i ich porównanie.
