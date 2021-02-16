@@ -15,14 +15,14 @@ Różne rozszerzenia kolorowanych sieci Petriego:
 * hierarchiczne- sposób na wyróżnianie niektórych modułów i odwoływanie się do pewnych podsieci, będących samymi w sobie sieciami Petriego, należy wtedy określić wejście i wyjście z podsieci oraz tranzycję modelującą złożoność podsieci; pozwala na uproszczenie bardziej złożonych sieci  
 * czasu rzeczywistego- występują pętle czasowe, dostępności znaczników ulegają zmianie, znaczniki mogą mieć ograniczenia dotyczące wieku, występują bardziej skomplikowane zależności czasowe, czas jest płynny i uwzględniany przez wszystkie elementy sieci  
 
-## Zastosowania sieci Petriego
+### Zastosowania sieci Petriego
 
 Można przyjąć, że miejsca z żetonami to chwilowe stany układu. Przejścia to przetwarzanie danych lub fizycznych materiałów a żetony to dane lub materiały.  
 Sieci Petriego znajdują zastosowanie przede wszystkim w automatyce i analizie danych.
 
 # Implementacja kolorowanych sieci Petriego
 
-Kod:
+### Kod:
 ```
 miejsca = []
 tranzycje = []
@@ -183,7 +183,7 @@ def symulacja():
             prezentuj()
         i += 1
 ```        
-Przykładowe dane wejściowe:
+### Przykładowe dane wejściowe:
 ```
 dodaj_typ("A", ["a","b","c"])
 miejsce1 = dodaj_miejsce("Miejsce1", "A", "a", 3)
@@ -199,11 +199,11 @@ dodaj_polaczenie_z_tranzycji_do_miejsca(tranzycja2, miejsce1, ["a", 1])
 
 symulacja()
 ```
-Graf ilustrujący sieć stworzoną danymi wejściowymi:
+### Graf ilustrujący sieć stworzoną danymi wejściowymi:
 
 ![alt text](https://github.com/Stokrotkiblawatki/Optymalizacja_Kombinatoryczna_Projekt/blob/main/petri_net_1.png?raw=true)
 
-Dane wyjściowe dla powyższych danych wejściowych:
+### Dane wyjściowe dla powyższych danych wejściowych:
 ```
 MIEJSCA
 Miejsce 1
