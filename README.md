@@ -201,6 +201,8 @@ symulacja()
 ```
 Graf ilustrujący sieć stworzoną danymi wejściowymi:
 
+![alt text](https://github.com/Stokrotkiblawatki/Optymalizacja_Kombinatoryczna_Projekt/blob/main/petri_net_1.png?raw=true)
+
 Dane wyjściowe dla powyższych danych wejściowych:
 ```
 MIEJSCA
